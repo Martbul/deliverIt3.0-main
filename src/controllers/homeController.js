@@ -18,6 +18,10 @@ router.get("/about", (req, res) => {
   res.render("about");
 });
 
+router.get("/learnmore", (req, res) => {
+  res.render("learnMore");
+});
+
 router.get("/singup", (req, res) => {
   res.render("singup");
 });
