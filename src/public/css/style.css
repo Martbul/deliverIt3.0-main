@@ -202,10 +202,6 @@ label {
 button {
   border-radius: 0; }
 
-  #orderBtnId:hover{
-   
-  }
-
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color; }
@@ -8321,7 +8317,9 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+
+}
 
 .bg-primary {
   background: #fac564 !important; }
@@ -9090,6 +9088,27 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+
+
+
+div.order {
+  display: inline-block;
+  border: 1px solid #2b415433;
+  background: white;
+  width: 23%;
+  vertical-align: top;
+}
+
+div.oder:hover p.name {
+  background: #607588;
+  color: white;
+}
+
+.deliverItOptions{
+  
+}
+
+ 
 
 @-webkit-keyframes loader-rotate {
   100% {
