@@ -1,7 +1,7 @@
 <main>
 
 <h1>Browser</h1>
-<form action="/" method="GET">
+<form action="/binds" method="GET">
    <input type="text" class="search" name="search" placeholder="Search..." value="{{search}}" />
    <input type="number" name="from" class="difficulty" placeholder="Difficulty from..." value="{{from}}" />
    <span>-</span>
@@ -12,7 +12,7 @@
 {{#each orders}}
 {{>bindTemplate}}
 {{else}}
-<h3>There are no cubes!</h3>
+<h3>There are no binds!</h3>
 {{/each}}
 
 </main>

@@ -12,7 +12,7 @@ exports.getAll = async (search, from, to) => {
 // TODO: this will be filtered later with mongoose
   if (search) {
     filterOrders = filterOrders.filter((order) =>
-      order.name.toLowerCase().includes(search.toLowerCase())
+      order.order.toLowerCase().includes(search.toLowerCase())
     );
   }
 
